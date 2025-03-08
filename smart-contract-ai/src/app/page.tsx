@@ -9,7 +9,7 @@ export default function Home() {
           AI-Powered Smart Contract Platform
         </h1>
         <p className="mx-auto max-w-[600px] text-slate-300 md:text-xl">
-          Analyze, generate, and deploy smart contracts with the power of AI. 
+          Analyze, generate, and deploy smart contracts with the power of AI.
           Secure, efficient, and user-friendly.
         </p>
         <div className="flex flex-col gap-4 sm:flex-row justify-center">
