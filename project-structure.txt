@@ -1,0 +1,62 @@
+smart-contract-ai/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── contracts/
+│   │   │   ├── analyze/
+│   │   │   │   └── page.tsx
+│   │   │   ├── generate/
+│   │   │   │   └── page.tsx
+│   │   │   └── history/
+│   │   │       └── page.tsx
+│   │   └── api/
+│   │       ├── analyze/
+│   │       │   └── route.ts
+│   │       └── generate/
+│   │           └── route.ts
+│   ├── components/
+│   │   ├── ui/           # shadcn/ui components
+│   │   ├── layout/
+│   │   │   ├── Header.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   └── Sidebar.tsx
+│   │   ├── contracts/
+│   │   │   ├── ContractAnalyzer.tsx
+│   │   │   ├── ContractGenerator.tsx
+│   │   │   ├── ContractHistory.tsx
+│   │   │   └── SecurityAnalysis.tsx
+│   │   └── shared/
+│   │       ├── CodeEditor.tsx
+│   │       └── LoadingSpinner.tsx
+│   ├── lib/
+│   │   ├── aws/
+│   │   │   └── bedrock.ts
+│   │   ├── dfinity/
+│   │   │   ├── canister.ts
+│   │   │   └── identity.ts
+│   │   └── utils/
+│   │       ├── contract-parser.ts
+│   │       └── types.ts
+│   ├── styles/
+│   │   └── globals.css
+│   └── config/
+│       └── site.ts
+├── dfinity/
+│   ├── canisters/
+│   │   └── contracts/
+│   │       ├── contracts.did
+│   │       └── main.mo
+│   └── dfx.json
+├── public/
+│   └── assets/
+├── tests/
+│   ├── components/
+│   └── api/
+├── .env.local
+├── .gitignore
+├── next.config.js
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── tsconfig.json 
